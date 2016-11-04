@@ -10,3 +10,5 @@
 describe SALES_BRANCH;
 
 insert into SALES_BRANCH values(5, 'Henry Town Plaza', '165 Plaza', 3 )
+
+-- Hey, please grade this ASAP
