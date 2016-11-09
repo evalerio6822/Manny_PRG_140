@@ -6,4 +6,4 @@
 --question 6 select title from book, wrote, author where (book.book_code=wrote.book_code) and (wrote.author_num=author.author_num) and author.author_num in (18);
 -- question 7 select title from book where exists (select * from wrote, author where (book.book_code=wrote.book_code) and (wrote.author_num=author.author_num) and author.author_num in (18));
 -- question 8 select book.book_code, title from book, wrote, inventory where (book.book_code=wrote.book_code) and( book.book_code=inventory.book_code) and branch_num=2 and author_num=20;
-select book_code, book_code, price from book where price=Price order by book_code;
+-- question 9 ? List the book code for each pair of books that have the same price. I can't figure out how to do this one. PLease Help.
